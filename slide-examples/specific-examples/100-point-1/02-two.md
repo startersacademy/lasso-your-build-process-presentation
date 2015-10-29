@@ -1,3 +1,0 @@
-## Stacked slides
-
-Two

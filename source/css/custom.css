@@ -9,6 +9,11 @@
   background-color: #0087FF;
 }
 
+.slide.white-background.slide-background {
+  background-size: contain;
+  background-color: white;
+}
+
 .reveal {
   font-family: Helvetica, sans-serif;
   font-size: 38px;
@@ -28,6 +33,24 @@
   text-transform: inherit;
   text-shadow: 1px 1px 2px black;
   word-wrap: break-word; }
+
+section.has-light-background h1,
+section.has-light-background h2,
+section.has-light-background h3,
+section.has-light-background h4,
+section.has-light-background h5,
+section.has-light-background h6 {
+  margin: 0 0 20px 0;
+  color: #0087FF;
+  font-family: Helvetica, sans-serif;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-transform: inherit;
+  text-shadow: 1px 1px 2px black;
+  word-wrap: break-word;
+}
+
 
 h1.left , h2.left , h3.left, h4.left , h5.left , h6.left {
   text-align: left
@@ -57,3 +80,12 @@ span.clouditem {
   padding-right: 0.20em;
   line-height: .6em;
 }
+
+/*********************************************
+ * IMAGES
+ *********************************************/
+.reveal section img {
+  margin: 50px 30px;
+  background: rgba(255, 255, 255, 0);
+  border: 0;
+  box-shadow: 0 0 0}
